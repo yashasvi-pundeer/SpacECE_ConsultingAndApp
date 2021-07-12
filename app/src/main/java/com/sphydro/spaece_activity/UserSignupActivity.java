@@ -31,6 +31,13 @@ public class UserSignupActivity extends AppCompatActivity {
         tv.setOnClickListener(v -> {
             openLogin();
             });
+
+        signup.setOnClickListener(v -> {
+            registerUser();
+        });
+    }
+
+    private void registerUser() {
     }
 
     private void openLogin() {

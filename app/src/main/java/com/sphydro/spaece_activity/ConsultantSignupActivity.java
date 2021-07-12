@@ -35,6 +35,13 @@ public class ConsultantSignupActivity extends AppCompatActivity {
             openLogin();
         });
 
+        Register.setOnClickListener(v -> {
+            registerConsultant();
+        });
+    }
+
+    private void registerConsultant() {
+
     }
 
     private void openLogin() {
