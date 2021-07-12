@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.textInputEditText2);
+        username = findViewById(R.id.username);
         password = findViewById(R.id.textInputEditText5);
         login = (Button) findViewById(R.id.login_button);
         tv = findViewById(R.id.switch_signup_button);
@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     private void openRegister() {
-            Intent intent = new Intent(this, SignupActivity.class);
+            Intent intent = new Intent(this, SelectorActivity.class);
             startActivity(intent);
     }
 }

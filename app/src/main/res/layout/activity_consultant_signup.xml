@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserSignupActivity">
+    tools:context=".ConsultantSignupActivity">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -29,91 +29,124 @@
         app:layout_constraintTop_toTopOf="parent"></com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/License"
         android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:layout_marginTop="92dp"
         android:drawableEnd="@drawable/ic_baseline_person_24"
-        android:hint="Name"
+        android:hint="License No."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText2"
+        android:id="@+id/username"
         android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="24dp"
-        android:hint="Username"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
         android:drawableEnd="@drawable/ic_baseline_person_24"
+        android:hint="Username"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
-    </com.google.android.material.textfield.TextInputEditText>
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText3"
+        android:id="@+id/email"
         android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="100dp"
-        android:hint="Email ID"
+        android:layout_height="45dp"
+        android:layout_marginTop="72dp"
         android:drawableEnd="@drawable/ic_baseline_email_24"
+        android:hint="Email ID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
-    </com.google.android.material.textfield.TextInputEditText>
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText4"
+        android:id="@+id/mobile"
         android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="180dp"
-        android:hint="Phone No."
+        android:layout_height="45dp"
+        android:layout_marginTop="132dp"
         android:drawableEnd="@drawable/ic_baseline_phone_android_24"
+        android:hint="Phone No."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
+        app:layout_constraintTop_toBottomOf="@+id/License">
 
     </com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText5"
+        android:id="@+id/password"
         android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="264dp"
-        android:hint="Password"
+        android:layout_height="45dp"
+        android:layout_marginTop="192dp"
         android:drawableEnd="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
-    </com.google.android.material.textfield.TextInputEditText>
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/CAT2"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="248dp"
+        android:hint="CAT2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/CAT3"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="308dp"
+        android:hint="CAT 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/CAT4"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="368dp"
+        android:hint="CAT4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
 
     <Button
-        android:id="@+id/button_register_user"
+        android:id="@+id/button_register_consultant"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="120dp"
         android:layout_height="52dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="376dp"
         android:text="REGISTER!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/username"></Button>
 
     <TextView
-        android:id="@+id/switch_login_button"
+        android:id="@+id/switch_login"
         android:layout_width="175dp"
         android:layout_height="21dp"
         android:layout_marginTop="20dp"
         android:text="Already a Member? Log In!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_register_user"></TextView>
+        app:layout_constraintTop_toBottomOf="@+id/button_register_consultant"></TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

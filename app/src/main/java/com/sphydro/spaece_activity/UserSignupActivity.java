@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class SignupActivity extends AppCompatActivity {
+public class UserSignupActivity extends AppCompatActivity {
 
     TextInputEditText name, username, email, phone, password;
     Button signup;
@@ -25,7 +25,7 @@ public class SignupActivity extends AppCompatActivity {
         email = findViewById(R.id.textInputEditText3);
         phone = findViewById(R.id.textInputEditText4);
         password = findViewById(R.id.textInputEditText5);
-        signup = (Button) findViewById(R.id.button_register);
+        signup = (Button) findViewById(R.id.button_register_user);
         tv = findViewById(R.id.switch_login_button);
 
         tv.setOnClickListener(v -> {

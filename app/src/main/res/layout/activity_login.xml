@@ -26,7 +26,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/License"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginTop="116dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent"></com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText2"
+        android:id="@+id/username"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginTop="48dp"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"></com.google.android.material.textfield.TextInputEditText>
+        app:layout_constraintTop_toBottomOf="@+id/License"></com.google.android.material.textfield.TextInputEditText>
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2">
+        app:layout_constraintTop_toBottomOf="@+id/username">
     </Button>
 
     <TextView
