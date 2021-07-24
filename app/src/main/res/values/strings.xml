@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpaECE-Activity</string>
+    <string-array name="items">
+        <item> Pediatric </item>
+        <item> Nutritionist </item>
+        <item> Physical/Mental Health </item>
+        <item> Psychiatrist </item>
+    </string-array>
+</resources>
